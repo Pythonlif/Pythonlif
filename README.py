@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @Pythonlif
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Pythonlif/Pythonlif is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+a = int(input())
+b = int(input())
+if a>b:
+    print("{} {}-den boyukdur".format(a,b))
+elif a==b:
+    print("{} {}-ile bereberdir".format(a,b))
+else:
+    print("{} {}-den boyukdur".format(b,a))
